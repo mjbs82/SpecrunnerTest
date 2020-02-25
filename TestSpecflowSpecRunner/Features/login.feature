@@ -5,5 +5,5 @@ Feature: login
 Scenario: Logging in with invalid username
   Given I am on the Corazon login page
   When I login with wrong credentials
-  Then the login is not successfull
+  Then the login is not successfully done
   

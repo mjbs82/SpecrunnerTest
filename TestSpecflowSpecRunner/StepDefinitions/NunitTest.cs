@@ -49,7 +49,7 @@ namespace PruebaSelenium.StepDefinitions
            // _lp = new LoginPage(_driver);
            // _lp.TrySignIn("test", "");
         }
-        [Then(@"the login is not successfull")]
+        [Then(@"the login is not successfully done")]
         public void TheLoginIsNotSuccessful()
         {
             //Assert.AreEqual("Password is required", _lp.LoginError().Text);
