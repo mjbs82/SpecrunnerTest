@@ -108,7 +108,7 @@ this.ScenarioInitialize(scenarioInfo);
   testRunner.When("I login with wrong credentials", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 8
-  testRunner.Then("the login is not successfull", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.Then("the login is not successfully done", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
