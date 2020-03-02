@@ -26,4 +26,9 @@
       </ConfigFileTransformation>-->
     </Steps>
   </DeploymentTransformation>
+
+  <Report>
+    <Template name="CucumberJson.cshtml" outputName="data.json"/>
+  </Report>
+  
 </TestProfile>
