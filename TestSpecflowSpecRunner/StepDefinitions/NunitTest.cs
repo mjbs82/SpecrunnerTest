@@ -48,7 +48,7 @@ namespace PruebaSelenium.StepDefinitions
         {
             // _lp = new LoginPage(_driver);
             // _lp.TrySignIn("test", "");
-            System.Threading.Thread.Sleep(15000000);
+            System.Threading.Thread.Sleep(100000);
 
         }
         [Then(@"the login is not successfully done")]
