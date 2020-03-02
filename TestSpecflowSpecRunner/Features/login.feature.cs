@@ -19,8 +19,8 @@ namespace TestSpecflowSpecRunner.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.1.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("", SourceFile="Features\\login.feature", SourceLine=0)]
-    public partial class Feature
+    [TechTalk.SpecRun.FeatureAttribute("login.feature", SourceFile="Features\\login.feature", SourceLine=0)]
+    public partial class Login_FeatureFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
@@ -34,7 +34,7 @@ namespace TestSpecflowSpecRunner.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "login.feature", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

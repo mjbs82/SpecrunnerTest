@@ -1,4 +1,4 @@
-Feature: 
+Feature: login.feature
 
 	
 	@BESTSECRET-44317 @id:1 @id:2 @id:3 @login.feature
