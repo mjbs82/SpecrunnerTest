@@ -46,8 +46,10 @@ namespace PruebaSelenium.StepDefinitions
         [When(@"I login with wrong credentials")]
         public void ILoginWithWrongCredentials()
         {
-           // _lp = new LoginPage(_driver);
-           // _lp.TrySignIn("test", "");
+            // _lp = new LoginPage(_driver);
+            // _lp.TrySignIn("test", "");
+            System.Threading.Thread.Sleep(15000);
+
         }
         [Then(@"the login is not successfully done")]
         public void TheLoginIsNotSuccessful()
