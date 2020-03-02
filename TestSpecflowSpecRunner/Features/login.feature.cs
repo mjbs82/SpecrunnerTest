@@ -19,15 +19,13 @@ namespace TestSpecflowSpecRunner.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.1.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("", new string[] {
-            "BESTSECRET-44331"}, SourceFile="Features\\login.feature", SourceLine=1)]
+    [TechTalk.SpecRun.FeatureAttribute("", SourceFile="Features\\login.feature", SourceLine=0)]
     public partial class Feature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-        private string[] _featureTags = new string[] {
-                "BESTSECRET-44331"};
+        private string[] _featureTags = ((string[])(null));
         
 #line 1 "login.feature"
 #line hidden
@@ -36,8 +34,7 @@ namespace TestSpecflowSpecRunner.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "", null, ProgrammingLanguage.CSharp, new string[] {
-                        "BESTSECRET-44331"});
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -78,7 +75,7 @@ namespace TestSpecflowSpecRunner.Features
                 "id:1",
                 "id:2",
                 "id:3",
-                "login.feature"}, SourceLine=5)]
+                "login.feature"}, SourceLine=4)]
         public virtual void LoggingInWithInvalidUsername()
         {
             string[] tagsOfScenario = new string[] {
@@ -93,7 +90,7 @@ namespace TestSpecflowSpecRunner.Features
                         "id:2",
                         "id:3",
                         "login.feature"});
-#line 6
+#line 5
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -113,13 +110,13 @@ namespace TestSpecflowSpecRunner.Features
             else
             {
                 this.ScenarioStart();
-#line 7
+#line 6
   testRunner.Given("I am on the Corazon login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 8
+#line 7
   testRunner.When("I login with wrong credentials", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 9
+#line 8
   testRunner.Then("the login is not successfully done", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
