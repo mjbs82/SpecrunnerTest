@@ -19,15 +19,15 @@ namespace TestSpecflowSpecRunner.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.1.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("login", new string[] {
-            "REQ_BESTSECRET-37487"}, SourceFile="Features\\login.feature", SourceLine=1)]
-    public partial class LoginFeature
+    [TechTalk.SpecRun.FeatureAttribute("", new string[] {
+            "BESTSECRET-44330"}, SourceFile="Features\\login.feature", SourceLine=1)]
+    public partial class Feature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
         private string[] _featureTags = new string[] {
-                "REQ_BESTSECRET-37487"};
+                "BESTSECRET-44330"};
         
 #line 1 "login.feature"
 #line hidden
@@ -36,8 +36,8 @@ namespace TestSpecflowSpecRunner.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "login", null, ProgrammingLanguage.CSharp, new string[] {
-                        "REQ_BESTSECRET-37487"});
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "", null, ProgrammingLanguage.CSharp, new string[] {
+                        "BESTSECRET-44330"});
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -74,15 +74,27 @@ namespace TestSpecflowSpecRunner.Features
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Logging in with invalid username", new string[] {
-                "id:3"}, SourceLine=4)]
+                "BESTSECRET-44317",
+                "id:1",
+                "id:2",
+                "id:3",
+                "login.feature"}, SourceLine=5)]
         public virtual void LoggingInWithInvalidUsername()
         {
             string[] tagsOfScenario = new string[] {
-                    "id:3"};
+                    "BESTSECRET-44317",
+                    "id:1",
+                    "id:2",
+                    "id:3",
+                    "login.feature"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Logging in with invalid username", null, new string[] {
-                        "id:3"});
-#line 5
-this.ScenarioInitialize(scenarioInfo);
+                        "BESTSECRET-44317",
+                        "id:1",
+                        "id:2",
+                        "id:3",
+                        "login.feature"});
+#line 6
+ this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
             bool isFeatureIgnored = default(bool);
@@ -101,13 +113,13 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 6
+#line 7
   testRunner.Given("I am on the Corazon login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 7
+#line 8
   testRunner.When("I login with wrong credentials", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 8
+#line 9
   testRunner.Then("the login is not successfully done", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
